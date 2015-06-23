@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="EsriSpain" name="hello-world" version="0.1.3">
+    <details>
+        <title>Hello World</title>
+        <authors>Raúl Jiménez ortega &lt;hhkaos@gmail.com.com&gt;</authors>
+        <homepage>https://github.com/hhkaos/wirecloud-hello-world</homepage>
+        <email>hhkaos@gmail.com.com</email>
+        <image>images/hello_world.jpeg</image>
+        <smartphoneimage>images/hello_world.jpeg</smartphoneimage>
+        <description>Hello world sample widget</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <doc>https://github.com/hhkaos/wirecloud-hello-world/doc</doc>
+        <changelog>doc/changelog.md</changelog>
+    </details>
+    <preferences>
+        <preference name="username" type="text" label="Text input" description="Text input preference"/>
+    </preferences>
+    <wiring/>
+    <contents src="index.html" useplatformstyle="true"/>
+    <rendering width="6" height="28"/>
+</widget>
